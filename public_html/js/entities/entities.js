@@ -1,5 +1,4 @@
-// *** App Academy ***
-// Create a game.PaddleEntity
+
 game.PaddleEntity = me.ObjectEntity.extend ({
     init: function(x, y, settings) {
         settings.image = "paddle";
@@ -12,7 +11,6 @@ game.PaddleEntity = me.ObjectEntity.extend ({
         this.type = "paddle";
         this.collidable = true;
     },
-    
     update: function() {
         if(me.input.isKeyPressed("left")) {
             this.vel.x -= this.accel.x * me.timer.tick;
