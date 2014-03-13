@@ -8,8 +8,8 @@ game.PaddleEntity = me.ObjectEntity.extend ({
         sdfjsdlfkj
         this.setVelocity(2, 0);
         
-        this.type = "paddle";
-        this.collidable = true;
+        
+        jklsjflkjlkdjf
     },
     update: function() {
         if(me.input.isKeyPressed("left")) {
