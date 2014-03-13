@@ -5,7 +5,7 @@ game.PaddleEntity = me.ObjectEntity.extend ({
         settings.spritewidth = "48";
         settings.spriteheight = "16";
         this.parent(x, y, settings);
-        
+        sdfjsdlfkj
         this.setVelocity(2, 0);
         
         this.type = "paddle";

@@ -8,7 +8,7 @@ var game = {
 		score : 0
 	},
 	
-	
+	ksdhfkjsdhfkjsd
 	// Run on page load.
 	"onload" : function () {
 	// Initialize the video.
