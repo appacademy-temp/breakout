@@ -1,15 +1,12 @@
-
 game.PaddleEntity = me.ObjectEntity.extend ({
     init: function(x, y, settings) {
         settings.image = "paddle";
         settings.spritewidth = "48";
         settings.spriteheight = "16";
         this.parent(x, y, settings);
-        sdfjsdlfkj
+
         this.setVelocity(2, 0);
         
-        
-        jklsjflkjlkdjf
     },
     update: function() {
         if(me.input.isKeyPressed("left")) {
